@@ -54,9 +54,11 @@ body {
     position: fixed;
     width: 100%;
 }
-.navbar a:hover {
-    background: #ddd;
+.navbar-light .navbar-nav .nav-link{
     color: black;
+} 
+.navbar a:hover {
+    background: rgba(98, 174, 236, 0.24);
 }
 
 h1,
@@ -333,7 +335,7 @@ a:hover {
 
 /* Inspiration Section Styles */
 
-.otherworks-section {
+.accomplishments-section {
     background-color:white;
     padding-bottom: 100px;
 }
