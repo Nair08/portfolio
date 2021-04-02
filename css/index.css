@@ -17,7 +17,7 @@
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #60a3e2;
     --fs-h1: 2.5rem;
     --fs-h2: 2rem;
     --fs-h3: 1.25rem;
@@ -85,7 +85,11 @@ a:hover {
 /* Top Section Styles */
 
 .top-section {
-    background-color: bisque;
+    background-color: #50A1C7;
+}
+
+.top-section h1{
+    color:#fff
 }
 
 .profile-image {
@@ -108,7 +112,7 @@ a:hover {
 /* Skill Section Styles */
 
 .skill-section {
-    background-color: bisque;
+    background-color: #50A1C7;
 }
 
 .skill-section ul {
@@ -152,7 +156,7 @@ a:hover {
 
 .bar-skill li {
     position: relative;
-    background: bisque;
+    background: #50A1C7;
     height: 30px;
     left: -25px;
     border-radius: 15px;
@@ -182,7 +186,7 @@ a:hover {
 }
 
 .java, .spring-boot {
-    width: 95%;
+    width: 5%;
 }
 
 .javascript {
@@ -212,7 +216,7 @@ a:hover {
 /* Project Section Styles */
 
 .project-section {
-    background-color: bisque;
+    background-color: #fcfcfc;
 }
 
 .project-list {
@@ -278,6 +282,7 @@ a:hover {
 
 .academic-section {
     padding-bottom: 80px;
+    background: #50A1C7;
 }
 
 .academic-section table {
@@ -286,9 +291,9 @@ a:hover {
     box-shadow: 5px 5px 5px rgba(0.0, 0.0, 0.0, 0.5);
 }
 
-.academic-section table tr, th, td {
+/* .academic-section table tr, th, td {
     border: 5px solid white;
-}
+} */
 
 .academic-section table th, td {
     padding: 15px 30px;
@@ -296,11 +301,11 @@ a:hover {
 }
 
 .academic-section th {
-    background-color: bisque;
+    background-color: #ffffff;
 }
 
 .academic-section td {
-    background-color: var(--clr-dark);
+    background-color: #363a3a;
     color: var(--clr-light);
 }
 
@@ -319,7 +324,7 @@ a:hover {
 /* Inspiration Section Styles */
 
 .inspiration-section {
-    background-color: bisque;
+    background-color:white;
     padding-bottom: 100px;
 }
 
