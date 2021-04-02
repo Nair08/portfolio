@@ -50,6 +50,14 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
 
 h1,
 h2,
@@ -104,7 +112,9 @@ a:hover {
 .top-section a:hover {
     color: var(--clr-accent);
 }
-
+.top-section h1{
+    margin-top: 2%;
+}
 .top-section a+a {
     margin-left: 1em;
 }
@@ -323,12 +333,12 @@ a:hover {
 
 /* Inspiration Section Styles */
 
-.inspiration-section {
+.otherworks-section {
     background-color:white;
     padding-bottom: 100px;
 }
 
-.quote-box {
+.articles {
     display: grid;
     column-gap: 1.5em;
     grid-template-columns: 1fr;
@@ -348,9 +358,15 @@ a:hover {
     margin-top: 2em;
 }
 
+.quotes a{
+    color: black;
+}
+.quotes a:hover{
+    color: rgb(65, 28, 196);
+}
 .quotes img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     margin: 15px 0 25px 0;
 }
 
@@ -359,7 +375,7 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-    .quote-box {
+    .articles {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
